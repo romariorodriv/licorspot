@@ -1,0 +1,635 @@
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.container{
+  width: 100%;
+ max-width:1900px;
+margin-bottom: 10px;
+  }
+
+.header{
+
+
+ background:rgb(0, 0, 0);
+
+
+
+ position:fixed;z-index: 1;
+ left:0;
+ top:0;
+  width: 100%;
+
+
+}
+a {
+	text-decoration: none;
+}
+.logo-nav-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+}
+
+.logo{
+width:400px;
+
+line-height:20px;
+float: left;
+}
+
+.logo img
+{
+  width:100%;
+  padding-left: 50px;
+}
+
+.navigation ul{
+  margin:0;
+  padding:0;
+  list-style-type:none; 
+  
+  
+
+}
+
+.navigation  {
+  background:rgb(255, 226,93);
+  
+  padding:0.5rem 1rem; 
+  display: inline-block;
+  font-size:1.25em;
+  margin:20px;
+  padding:10px 0px;
+  text-align:center;
+  width:200px;
+  text-decoration: none;
+  box-shadow:0px 3px 0px #faeb64;
+  border-radius:30px;
+
+
+  
+}
+.navigation  a {
+  color:black;
+  
+}
+.navigation:hover {
+  box-shadow: 0px,0px,0px;
+  padding-top:7px;
+}
+@media screen and (max-width: 767px)
+{
+
+  .header{
+    padding-bottom: 10px;
+  }
+  .logo{
+    width:350px;
+  }
+ .logo img{
+   width:90%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 1rem;
+    display:inline-block;
+   
+    
+    font-size:20px;
+   
+  }
+}
+@media screen and (max-width: 600px)
+{
+.header{
+  padding-bottom: 10px;
+}
+  .logo{
+    width:300px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+  
+    font-size:20px;
+   
+  }
+}
+@media screen and (max-width: 519px)
+{
+  .header{
+    padding-bottom: 10px;
+  }
+  .logo{
+    width:260px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+  
+    font-size:20px;
+   
+  }
+}
+@media screen and (max-width: 414px)
+{
+  .header{
+    padding-bottom: 10px;
+  }
+  .logo{
+    width:200px;
+  }
+ .logo img{
+   width:100%;
+   float: left;
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+   
+    font-size:15px;
+   
+  }
+}
+@media screen and (max-width: 375px)
+{
+  .header{
+    padding-bottom: 10px;
+  }
+  .logo{
+    width:180px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+ 
+    font-size:15px;
+   
+  }
+}
+@media screen and (max-width: 360px)
+{
+  .header{
+    padding-bottom: 10px;
+  }
+  .logo{
+    width:170px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: inline-block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:inline-block;
+   
+   
+    font-size:15px;
+   
+  }
+}
+@media screen and (max-width: 320px)
+{
+
+  .logo{
+    width:200px;
+  }
+ .logo img{
+   width:100%;
+   
+ }
+  .navigation ul li{
+    display: block;
+    
+  
+  }
+  .navigation ul li a{
+    padding-left: 0.5rem 1rem;
+    display:block;
+   
+    
+    font-size:15px;
+   
+  }
+}
+/* ------------------------- */
+/* Estilos de Materialize */
+/* ------------------------- */
+
+.wap{
+  width: 100%;
+  max-width:1700px;
+  margin: 0 auto;
+}
+
+
+
+
+/*slider2*/
+
+
+
+/*inspirate*/
+.galeria-tipos{
+  margin-top:50px;
+
+}
+.galeria-tipos h1
+{
+ 
+  text-align:center;
+  
+  font-size:50px;
+  margin:20px 0 15px 0;
+  font-weight:300;
+  font-family: 'Fredoka One', cursive;
+}
+
+.contenedor-imagenes-tipos{
+
+  display:flex;
+  width:90%;
+  margin:auto;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  border-radius:3px;
+  
+}
+.contenedor-imagenes-tipos .imagen-tipo{
+  width:20%;
+  position: relative;
+ 
+  
+  margin-bottom:5px;
+  box-shadow:0px 0px 3px 0px rgba(0,0,0, .75)
+}
+
+.imagen-tipo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.overlay1{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  background: rgba(232, 246, 255, 0.781);
+
+  width:100%;
+  height:0;
+  
+  overflow: hidden;
+  transition:1s ease;
+  
+}
+.overlay1 h2{
+  color:black;
+  font-size: 30px;
+  font-weight:300;
+  position: absolute;
+  top:50%;
+  font-family: 'Asap Condensed', sans-serif;
+  left:50%;
+  text-align:center;
+  transform:translate(-50% ,-50%);  
+}
+.imagen-tipo:hover .overlay1{
+  height:100%;
+  cursor: pointer;
+}
+@media screen and (max-width:414px){
+
+}
+
+@media screen and (max-width:1000px)
+{
+  .contenedor-imagenes-tipos{
+      width:95%;
+  }
+}
+
+
+@media screen and (max-width:700px)
+{
+  .contenedor-imagenes-tipos{
+      width:90%;
+  }
+
+  .contenedor-imagenes .imagen-tipo{
+      width: 48%;
+  }
+}
+
+@media screen and (max-width:700px)
+{
+  h1{
+      font-size: 22px;
+  }
+  .contenedor-imagenes-tipos{
+      width:100%;
+  }
+
+  .contenedor-imagenes .imagen-tipo{
+      width: 48%;
+  }
+}
+
+
+.wap{
+  width: 100%;
+  max-width:1700px;
+  margin: 0 auto;
+}
+
+.carousel {
+  margin-top:150px;
+  min-height: 500px;
+  
+}
+
+.carousel .carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  
+  width: 500px;
+  height: 500px;
+  
+
+}
+
+.carousel .carousel-item img {
+
+ 
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  border-radius: 15px;
+  
+}
+
+/*.carousel .indicators .indicator-item {
+  border-radius: 0;
+  transform: rotate(45deg);
+  margin: 0 15px;
+  background: #36221c;
+}*/
+
+
+
+
+@media screen and (max-width:414px)
+{
+
+  .carousel{
+    width: 85%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+   
+    min-height: 80%;
+  }
+  .carousel .carousel-item{
+      width:300px;
+      height: 300px;
+      
+    
+  }
+  .carousel .carousel-item img{
+    width:100%;
+  }
+ 
+}
+@media screen and (max-width:375px)
+{
+  .carousel{
+    width: 80%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    
+    
+  }
+  .carousel .carousel-item{
+      width:250px;
+      height: 250px;
+      
+    
+  }
+  .carousel .carousel-item img{
+    width:100%;
+  }
+ 
+}
+@media screen and (max-width:320px)
+{
+  .carousel{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:30%;
+    width:70%; 
+  }
+  .carousel .carousel-item{
+    width: 180px;
+    height: 180px;
+   
+    
+  }
+  .carousel .carousel-item img{
+    width: 100%;
+  }
+ 
+}
+
+/*inspirate*/
+.galeria{
+  margin-top:50px;
+
+}
+.galeria h1{
+  text-align:center;
+  font-size:50px;
+  margin:20px 0 15px 0;
+  font-weight:300;
+  font-family: 'Fredoka One', cursive;
+}
+
+
+.contenedor-imagenes{
+  display:flex;
+  width:50%;
+  margin:auto;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  border-radius:3px;
+
+}
+.contenedor-imagenes .imagen{
+width:32%;
+position: relative;
+height:250px;
+margin-bottom:5px;
+box-shadow:0px 0px 3px 0px rgba(0,0,0, .75)
+
+}
+
+.imagen img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.overlay{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  /*background: rgba(0,118,192,0.781);*/
+  background: #ffffff;
+  width:100%;
+  height:0;
+  
+  overflow: hidden;
+  transition:1s ease;
+  
+}
+
+.overlay h2{
+  color:black;
+  font-size: 30px;
+  font-weight:300;
+  position: absolute;
+  top:50%;
+  left:50%;
+  text-align:center;
+  transform:translate(-50% ,-50%);  
+}
+.imagen:hover .overlay{
+  height:100%;
+  cursor: pointer;
+}
+@media screen and (max-width:1000px)
+{
+  .contenedor-imagenes{
+      width:95%;
+  }
+}
+
+
+@media screen and (max-width:700px)
+{
+  .contenedor-imagenes{
+      width:90%;
+  }
+
+  .contenedor-imagenes .imagen{
+      width: 48%;
+  }
+}
+
+@media screen and (max-width:700px)
+{
+  h1{
+      font-size: 22px;
+  }
+  .contenedor-imagenes{
+      width:90%;
+  }
+
+  .contenedor-imagenes .imagen{
+      width: 48%;
+  }
+}
+/*about us*/
+
+/*galeria*/
+
+/*footer*/
+/*footer{
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.content-foo{
+  text-align: center;
+}
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #0dd2f5;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}*/
